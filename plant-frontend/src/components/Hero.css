@@ -1,0 +1,60 @@
+.hero {
+  text-align: center;
+  padding: 4rem 2rem 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-eyebrow {
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--mint);
+  margin-bottom: .75rem;
+}
+
+.hero-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.15;
+  color: var(--forest);
+  margin-bottom: 1rem;
+}
+
+.hero-title em {
+  font-style: italic;
+  color: var(--leaf);
+}
+
+.hero-sub {
+  max-width: 520px;
+  margin: 0 auto;
+  color: var(--soil);
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+
+.stat { text-align: center; }
+
+.stat-num {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.8rem;
+  color: var(--leaf);
+  display: block;
+}
+
+.stat-lbl {
+  font-size: .75rem;
+  color: var(--soil);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}

@@ -1,0 +1,7 @@
+.detector-main {
+  max-width: 1080px;
+  margin: 0 auto 4rem;
+  padding: 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
